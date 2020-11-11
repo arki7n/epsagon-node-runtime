@@ -7,7 +7,7 @@ Nodejs version 15.2.0 Custom node runtime for AWS Lambda. 100% compatible with A
 Steps to Use:
 
 1. Create new function with option : Provide Custom Runtime on AMAZON LINUX 2
-2. Attach the give layer or create your own from above Repo.
+2. Attach the give layer or create your own from above Repo.  
   `AWS Layer Version ARN: arn:aws:lambda:us-east-1:741365237744:layer:runtime-nodejs15-2-0:1`
 3. Create index.js file in the lambda code.
 
