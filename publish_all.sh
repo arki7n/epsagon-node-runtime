@@ -10,6 +10,6 @@ deploy_folder() {
     return $result;
 }
 
-for folder in v6.10 v8.10; do
+for folder in v15.2.0; do
     deploy_folder $folder || (echo "version publish failed" && exit 1);
 done;

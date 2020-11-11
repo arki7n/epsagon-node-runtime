@@ -1,9 +1,0 @@
-#!/bin/sh
-
-export NODE_PATH=/var/task:/var/task/node_modules:/opt/nodejs/node6.10/node_modules:/opt/nodejs/node_modules:/var/runtime/node_modules:/var/runtime:/opt/runtime:/opt/runtime/node_modules
-
-/opt/bin/node \
-  --expose-gc \
-  --max-semi-space-size=$((AWS_LAMBDA_FUNCTION_MEMORY_SIZE * 5 / 100)) \
-  --max-old-space-size=$((AWS_LAMBDA_FUNCTION_MEMORY_SIZE * 90 / 100)) \
-  /opt/bootstrap.js

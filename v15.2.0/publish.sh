@@ -1,8 +1,8 @@
 #!/bin/bash
 
-LAYER_NAME=runtime-nodejs6
+LAYER_NAME=runtime-nodejs15.2.0
 
-NODE_VERSION=6.10
+NODE_VERSION=15.2.0
 
 REGIONS='
 ap-northeast-1
