@@ -29,4 +29,4 @@ exports.handler = function (event, context) {
 
 4. Update handler in lambda configuration as: index.handler from hello.handler
 
-## Follow me on [twitter.com/arki7n](twitter.com/arki7n])
+## Follow me on [https://twitter.com/arki7n](https://twitter.com/arki7n])
