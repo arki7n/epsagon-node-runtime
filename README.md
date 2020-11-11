@@ -27,6 +27,7 @@ exports.handler = function (event, context) {
 };
 ```
 
-4. Update handler in lambda configuration as: index.handler from hello.handler
+4. To use a handler, use the full path as a handler.  
+Update handler in lambda configuration as: index.handler from hello.handler
 
 ## Follow me on [https://twitter.com/arki7n](https://twitter.com/arki7n)
