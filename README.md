@@ -1,10 +1,8 @@
 
 Nodejs version 15.2.0 Custom node runtime for AWS Lambda. 100% compatible with AWS's runtime, with some additional features:
 
-* Use handlers from layers: to use a handler, use the full path as a handler.
 
-
-Steps to Use:
+## Steps to Use:
 
 1. Create new function with option : Provide Custom Runtime on AMAZON LINUX 2
 2. Attach the give layer or create your own from above Repo.  
